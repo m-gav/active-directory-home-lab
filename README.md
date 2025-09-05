@@ -26,4 +26,4 @@ This project is a **Windows Server 2025 Active Directory home lab** I built in *
 ---
 
 ### Why I built this
-I wanted hands-on experience beyond certifications like **CompTIA A+**, and this lab gave me real practice with **enterprise IT administration**. It also serves as a portfolio piece to showcase my technical ability and initiative.
+I wanted to build hands-on experience after passing CompTIA A+, and this lab gave me real practice with IT Administration. It also serves as a portfolio piece to showcase my technical ability and initiative.
