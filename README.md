@@ -7,7 +7,7 @@ This project is a **Windows Server 2025 Active Directory home lab** I built in *
 - **Server:** Windows Server 2025 (Domain Controller, Active Directory, Group Policy)  
 - **Clients:** Windows 11 Pro (joined to AD domain)  
 
-## 🔧 Skills Demonstrated
+## 🛠️ Skills Demonstrated
 - Installed and configured **Active Directory Domain Services (AD DS)**
 - Created and managed **Organizational Units (OUs)**
 - Added and managed **users and groups** in AD
