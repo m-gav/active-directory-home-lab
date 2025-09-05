@@ -5,7 +5,7 @@ This project is a Windows Server 2025 Active Directory home lab I built in Oracl
 ## 🧪 Lab Overview
 - **Hypervisor:** Oracle VirtualBox 7.1.10
 - **Server:** Windows Server 2025 (Domain Controller, Active Directory, Group Policy)  
-- **Clients:** Windows 11 Pro (joined to AD domain)  #
+- **Clients:** Windows 11 Pro (joined to AD domain) 
 - **Domain Name:** BALTICTECH
 
 ## 🛠️ Skills Demonstrated
