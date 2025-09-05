@@ -3,7 +3,7 @@
 This project is a **Windows Server 2025 Active Directory home lab** I built in **Oracle VirtualBox** to practice and demonstrate IT administration skills. It simulates a small enterprise network environment, including a domain controller and Windows 11 client machines joined to the domain.
 
 ## 🚀 Lab Overview
-- **Hypervisor:** Oracle VirtualBox  
+- **Hypervisor:** Oracle VirtualBox 7.1.10
 - **Server:** Windows Server 2025 (Domain Controller, Active Directory, Group Policy)  
 - **Clients:** Windows 11 Pro (joined to AD domain)  
 
