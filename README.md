@@ -14,7 +14,7 @@ This project is a **Windows Server 2025 Active Directory home lab** I built in *
 - Configured and tested **Group Policy Objects (GPOs)**
 - Practiced **password resets, account lockout, and policy enforcement**
 - Applied **password policy and account security settings**
-- Created and mapped **shared and personal drives**
+- Created and assigned **shared and personal drives**
 
 ## 📂 Repository Contents
 - `docs/` → Detailed documentation (setup guide, features, screenshots)
