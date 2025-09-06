@@ -2,7 +2,7 @@
 flowchart TB
   subgraph Network["VirtualBox Internal Network"]
         A --> B
-        A -.-> C   %% dashed invisible edge
+        A --> C   %% dashed invisible edge
         style C fill:none,stroke:none
     end    
 
