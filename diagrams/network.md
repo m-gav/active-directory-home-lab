@@ -1,10 +1,8 @@
 ```mermaid
 flowchart TB
   subgraph Network["VirtualBox Internal Network"]
-    Spacer[---]  %% visible spacer
 
     DC[Windows Server 2025 - Domain Controller - AD DS DNS GPO]
-    end
 
     subgraph OU_IT["OU: IT"]
       Admin[Admin Client - Helpdesk]
