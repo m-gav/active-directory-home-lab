@@ -1,11 +1,11 @@
 ```mermaid
 flowchart TD
-  DC[Windows Server 2025 - Domain Controller (AD DS, DNS, GPO)]
+  DC[Server2025 DomainController ADDS DNS GPO]
 
-  Admin[Admin Client - Helpdesk - IT]
-  U1[User Client 1 - HR Department]
-  U2[User Client 2 - Management]
-  U3[User Client 3 - Finance]
+  Admin[AdminClient IT]
+  U1[Client1 HR]
+  U2[Client2 Management]
+  U3[Client3 Finance]
 
   DC --> Admin
   DC --> U1
