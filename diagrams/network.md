@@ -1,14 +1,10 @@
 ```mermaid
 flowchart TB
-  %% VirtualBox Internal Network with padding
   subgraph Network["VirtualBox Internal Network"]
-        P1[ ]  %% invisible padding node top
-        P2[ ]  %% invisible padding node bottom
-        A --> B
-        style P1 fill:none,stroke:none
-        style P2 fill:none,stroke:none
+      A --> B
+      P1[" "]  %% invisible node with a single space
   end
-  style Network stroke:#333,stroke-width:2px,fill:#f9f9f9
+  style P1 fill:none,stroke:none
 
   DC[Windows Server 2025 - Domain Controller - AD DS DNS GPO]
 
