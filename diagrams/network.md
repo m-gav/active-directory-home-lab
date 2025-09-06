@@ -1,8 +1,7 @@
 ```mermaid
 flowchart TB
   subgraph Network["VirtualBox Internal Network"]
-    Spacer["\u00A0"]  %% invisible node to add spacing
-    style Spacer fill:none,stroke:none
+    Spacer[---]  %% visible spacer
 
     DC[Windows Server 2025 - Domain Controller - AD DS DNS GPO]
 
