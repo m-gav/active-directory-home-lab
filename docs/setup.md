@@ -5,11 +5,11 @@ This guide outlines how I built my Windows Server 2025 Active Directory home lab
 ---
 
 ## 1. VirtualBox Installation
-- Installed **Oracle VirtualBox** on my host machine.
+- Installed **Oracle VirtualBox** on my Win 11 host machine.
 - Configured a dedicated **Internal Network** to simulate a small enterprise environment without internet exposure.
 - Allocated resources:
-  - Domain Controller: 2 vCPUs, 4GB RAM, 60GB storage.
-  - Clients: 1 vCPU, 2GB RAM, 40GB storage each.
+  - Domain Controller: 2 vCPUs, 4GB RAM, 50GB storage.
+  - Clients: 1 vCPU, 4GB RAM, 100GB storage each.
 
 ---
 
@@ -23,11 +23,11 @@ This guide outlines how I built my Windows Server 2025 Active Directory home lab
 ---
 
 ## 3. Windows 11 Clients
-- Deployed three Windows 11 Pro VMs.
+- Deployed four Windows 11 Pro VMs.
 - Configured network adapters to connect to the same **VirtualBox Internal Network**.
 - Changed system settings to point DNS to the Domain Controller’s IP.
-- Joined each VM to the domain `contoso.local`.
-
+- Joined each VM to the domain `baltictech.local`.
+* I  ran into a few errors when trying to launch these VMs which I had to troubleshoot. Turns out that I had forgot to enable TPM v2.0 in the settings which Windows 11 requires, unlike Windows 10.
 ---
 
 ## 4. Active Directory Structure
