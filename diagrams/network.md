@@ -1,6 +1,10 @@
 ```mermaid
 flowchart TB
+  Network:::somePaddingClass
+
   subgraph Network["VirtualBox Internal Network"]
+    end
+
     classDef somePaddingClass padding-left:5em;
 
     DC[Windows Server 2025 - Domain Controller - AD DS DNS GPO]
