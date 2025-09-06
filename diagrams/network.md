@@ -1,5 +1,5 @@
 ```mermaid
-flowchart LR
+flowchart TB
   subgraph Network["VirtualBox Internal Network"]
     DC[Windows Server 2025 - Domain Controller - AD DS DNS GPO]
 
@@ -18,10 +18,9 @@ flowchart LR
     subgraph OU_Finance["OU: Finance"]
       U3[User Client 3]
     end
-  end
 
-  %% Connect only to inner nodes (not subgraph headers)
-  DC --> OU_IT
-  DC --> OU_HR
-  DC --> OU_Management
-  DC --> OU_Finance
+    DC --> Admin
+    DC --> U1
+    DC --> U2
+    DC --> U3
+  end
