@@ -1,7 +1,10 @@
 ```mermaid
-flowchart LR
+flowchart TB
   subgraph Network["VirtualBox Internal Network"]
-    DC[Domain Controller - AD DS DNS GPO]
+    spacer1[ ]:::hidden
+    spacer2[ ]:::hidden
+
+    DC[Windows Server 2025 - Domain Controller - AD DS DNS GPO]
 
     subgraph OU_IT["OU: IT"]
       Admin[Admin Client - Helpdesk]
@@ -24,3 +27,5 @@ flowchart LR
     DC --> U2
     DC --> U3
   end
+
+  classDef hidden fill=transparent,stroke=transparent;
