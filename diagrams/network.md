@@ -21,7 +21,7 @@ flowchart LR
   end
 
   %% Connect only to inner nodes (not subgraph headers)
-  DC --> Admin
-  DC --> U1
-  DC --> U2
-  DC --> U3
+  DC --> OU_IT
+  DC --> OU_HR
+  DC --> OU_Management
+  DC --> OU_Finance
