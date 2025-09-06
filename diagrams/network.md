@@ -18,9 +18,10 @@ flowchart LR
     subgraph OU_Finance["OU: Finance"]
       U3[User Client 3]
     end
-
-    DC --> Admin
-    DC --> U1
-    DC --> U2
-    DC --> U3
   end
+
+  %% Connect only to inner nodes (not subgraph headers)
+  DC --> Admin
+  DC --> U1
+  DC --> U2
+  DC --> U3
