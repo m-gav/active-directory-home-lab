@@ -1,6 +1,9 @@
 ```mermaid
 flowchart TB
   subgraph Network["VirtualBox Internal Network"]
+        A --> B
+    end
+    style Network stroke:#333,stroke-width:2px,fill:#f9f9f9
 
     DC[Windows Server 2025 - Domain Controller - AD DS DNS GPO]
 
