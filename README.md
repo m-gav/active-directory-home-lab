@@ -1,4 +1,4 @@
-# 🖥️ Active Directory Home Lab (Windows Server 2025 + Windows 11 Clients)
+# Active Directory Home Lab (Windows Server 2025 + Windows 11 Clients)
 
 This project is a Windows Server 2025 Active Directory home lab I built in Oracle VirtualBox to practice and demonstrate IT administration skills. It simulates a small enterprise network environment, including a domain controller and Windows 11 client machines joined to the domain.
 
@@ -8,7 +8,7 @@ This project is a Windows Server 2025 Active Directory home lab I built in Oracl
 - **Clients:** Windows 11 Pro (joined to AD domain) 
 - **Domain Name:** BALTICTECH
 
-## 🛠️ Skills Demonstrated
+## Skills Demonstrated
 - Installed and configured **Active Directory Domain Services (AD DS)**
 - Created and managed **Organizational Units (OUs)**
 - Added and managed **users and groups** in AD
@@ -17,13 +17,13 @@ This project is a Windows Server 2025 Active Directory home lab I built in Oracl
 - Applied **password policy and account security settings**
 - Created and assigned **shared and personal drives**
 
-## 📂 Repository Contents
+## Repository Contents
 - `docs/` → Detailed documentation (setup guide, features, screenshots)
 - `diagrams/` → Network and architecture diagrams
 - `screenshots/` → Screenshots from the lab environment
 
-## 🌐 GitHub Pages
-👉 [View full project documentation](https://yourusername.github.io/active-directory-homelab/)
+## GitHub Pages
+[View full project documentation](https://yourusername.github.io/active-directory-homelab/)
 
 ---
 
