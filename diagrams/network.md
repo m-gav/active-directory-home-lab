@@ -1,5 +1,5 @@
 ```mermaid
-flowchart TB
+flowchart LR
   subgraph Network["VirtualBox Internal Network"]
     DC[Windows Server 2025 - Domain Controller - AD DS DNS GPO]
 
@@ -18,10 +18,6 @@ flowchart TB
     subgraph OU_Finance["OU: Finance"]
       U3[User Client 3]
     end
-
-    %% "Spacing nodes"
-    Space1[ ]
-    Space2[ ]
 
     DC --> Admin
     DC --> U1
