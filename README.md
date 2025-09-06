@@ -22,9 +22,6 @@ This project is a Windows Server 2025 Active Directory home lab I built in Oracl
 - `diagrams/` → Network and architecture diagrams
 - `screenshots/` → Screenshots from the lab environment
 
-## GitHub Pages
-[View full project documentation](https://yourusername.github.io/active-directory-homelab/)
-
 ---
 
 ### Why I built this
