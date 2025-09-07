@@ -9,7 +9,7 @@ This guide outlines how I built my Windows Server 2025 Active Directory home lab
 - Configured a dedicated Internal Network to simulate a small enterprise environment without internet exposure.
 - Allocated resources:
   - Domain Controller: 2 vCPUs, 4GB RAM, 50GB storage.
-  - Clients: 1 vCPU, 4GB RAM, 100GB storage each.
+  - Clients: 2 vCPU, 4GB RAM, 100GB storage each.
 
 ---
 
