@@ -1,4 +1,4 @@
-# 🛠️ Lab Setup Guide
+# Lab Setup Guide
 
 This guide outlines how I built my Windows Server 2025 Active Directory home lab in Oracle VirtualBox.
 
