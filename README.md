@@ -9,13 +9,13 @@ This project is a Windows Server 2025 Active Directory home lab I built in Oracl
 - **Domain Name:** BALTICTECH
 
 ## Skills Demonstrated
-- Installed and configured **Active Directory Domain Services (AD DS)**
-- Created and managed **Organizational Units (OUs)**
-- Added and managed **users and groups** in AD
-- Configured and tested **Group Policy Objects (GPOs)**
-- Practiced **password resets, account lockout, and policy enforcement**
-- Applied **password policy and account security settings**
-- Created and assigned **shared and personal drives**
+- Installed and configured Active Directory Domain Services (AD DS)
+- Created and managed Organizational Units (OUs)
+- Added and managed users and groups in AD
+- Configured and tested Group Policy Objects (GPOs)
+- Practiced password resets, account lockout, and policy enforcement
+- Applied password policy and account security settings
+- Created and assigned shared and personal drives
 
 ## Repository Contents
 - `docs/` → Detailed documentation (setup guide, features, screenshots)
