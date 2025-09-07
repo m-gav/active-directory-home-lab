@@ -5,10 +5,10 @@ It demonstrates my ability to configure, manage, and troubleshoot Active Directo
 
 ---
 
-## 🖥Active Directory Domain Services (AD DS)
+## Active Directory Domain Services (AD DS)
 - Configured Windows Server 2025 as a Domain Controller  
 - Installed AD DS and DNS roles  
-- Built a domain forest (`homelab.local`)  
+- Built a domain forest (`baltictech.local`)  
 - Added multiple domain-joined Windows 11 clients  
 
 ![Domain Controller Roles](screenshots/dc-roles.png)  
@@ -86,9 +86,6 @@ This homelab can be expanded with:
 - DHCP Server  
 - Security monitoring (e.g., SIEM, Splunk, Sysmon)  
 - Additional Domain Controllers for redundancy  
-
-![Planned Expansion](screenshots/future-diagram.png)  
-Figure 14: Planned extensions such as DHCP, File Server, and Monitoring
 
 ---
 
