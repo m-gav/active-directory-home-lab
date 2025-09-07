@@ -33,7 +33,7 @@ This guide outlines how I built my Windows Server 2025 Active Directory home lab
 ## 4. Active Directory Structure
 - Created Organizational Units (OUs) for Admins and Users.
 - Added test user accounts (e.g., Helpdesk Admin, Regular Users).
-- Grouped accounts based on role for easier management.
+- Grouped accounts based on role for easier management, IT for admins, then HR, Management, and Finance for regular users.
 
 ---
 
@@ -57,16 +57,12 @@ This guide outlines how I built my Windows Server 2025 Active Directory home lab
 
 ---
 
-## 7. Diagram
-![Network Diagram](network.md)
-
----
-
 ## Lessons Learned
 - How a Domain Controller manages authentication and policies across a network.
 - How OUs and GPOs provide structure and security.
 - Practical skills in troubleshooting domain joins and DNS issues.
 - The difference between admin-level and regular user accounts.
+- Windows 11 hardware requirements.
 
 ---
 
