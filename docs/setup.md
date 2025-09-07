@@ -27,7 +27,7 @@ This guide outlines how I built my Windows Server 2025 Active Directory home lab
 - Configured network adapters to connect to the same VirtualBox Internal Network.
 - Changed system settings to point DNS to the Domain Controller’s IP.
 - Joined each VM to the domain `baltictech.local`.
-- I  ran into a few errors when trying to launch these VMs that I had to troubleshoot. Turns out that I had forgotten to enable TPM v2.0 in the settings, which is a baseline requirement for Windows 11 to run.
+- One issue I ran into when setting up the first Windows 11 client is that I forgot to enable TPM v2.0 in the settings, which is a baseline requirement for Windows 11.
 ---
 
 ## 4. Active Directory Structure
