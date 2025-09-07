@@ -58,7 +58,7 @@ This guide outlines how I built my Windows Server 2025 Active Directory home lab
 ---
 
 ## 7. Diagram
-![Network Diagram](../diagrams/homelab-diagram.png)
+![Network Diagram](diagrams/network.md)
 
 ---
 
