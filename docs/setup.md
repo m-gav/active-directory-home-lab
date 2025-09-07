@@ -16,7 +16,7 @@ This guide outlines how I built my Windows Server 2025 Active Directory home lab
 ## 2. Windows Server 2025 (Domain Controller)
 - Created a VM for Windows Server 2025.
 - Installed the Active Directory Domain Services (AD DS) role.
-- Promoted the server to a Domain Controller and created the domain:  
+- Promoted the server to a Domain Controller and created the domain.
 - Configured DNS to support domain resolution.
 - Created an internal admin account separate from the built-in Administrator.
 
